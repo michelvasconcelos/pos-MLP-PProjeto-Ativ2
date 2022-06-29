@@ -129,8 +129,7 @@ if __name__ == '__main__':
         fe = bool(fe)
     else:
         fe = bool('')
-
-    print(fe)
+    
     print('')
     if el == 'social':
         client_code(SocialElevFactory(st))
